@@ -1,5 +1,7 @@
 name: Node.js Package
 
+EXPOSE=3000
+
 on:
   release:
     types: [created]
