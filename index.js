@@ -13,8 +13,6 @@ async function fetchData(route, queryParams) {
   }
 }
 
-EXPOSE=4000
-
 module.exports = {
   getAnimeInfo: async function(animeType, username, key) {
     return fetchData(`/nime/${animeType}`, `username=${username}&key=${key}`);
